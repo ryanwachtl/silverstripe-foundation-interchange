@@ -1,0 +1,8 @@
+---
+Name: foundationinterchangeconfig
+After: 'framework/*', 'cms/*'
+---
+Controller:
+  extensions:
+    - FoundationInterchangeControllerExtension
+---
