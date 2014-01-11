@@ -1,0 +1,24 @@
+{
+	"name": "rywa/silverstripe-foundation-interchange",
+	"type": "silverstripe-module",
+	"description": "Adds support for using .ss templates with ZURB Foundation's Interchange",
+	"keywords": ["silverstripe", "foundation", "interchange"],
+	"license": "MIT Open Source License",
+	"authors": [
+		{
+			"name": "Ryan Wachtl",
+			"homepage": "http://ryanwachtl.com"
+		}
+	],
+	"require": 
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	},
+	"extra": {
+		"installer-name": "foundationinterchange"
+	},
+	"support": {
+		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-interchange/issues"
+	}
+}
