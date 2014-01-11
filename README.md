@@ -1,7 +1,7 @@
 SilverStripe Foundation Interchange
 ===================================
 
-Support for dynamically loaded responsive content using `.ss` templates with Foundation's Interchange
+Experimental upport for dynamically loading responsive content using `.ss` templates with Foundation's Interchange
 
 Installing
 ===================================
@@ -16,7 +16,9 @@ Adds a new template placeholder `$InterchangePartial()`
 Use within your `data-interchange` element to reference your template partials. Passing in the `.ss` you would like to use.
 
 ```html
-<div data-interchange="[$InterchangePartial('Includes/Default'), (small)], [$InterchangePartial('Includes/Medium'), (medium)], [$InterchangePartial('Includes/Large'), (large)]">
+<div data-interchange="[$InterchangePartial('Includes/Default'), (small)],
+                       [$InterchangePartial('Includes/Medium'), (medium)],
+                       [$InterchangePartial('Includes/Large'), (large)]">
 </div>
 ```
 
