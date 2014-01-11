@@ -1,7 +1,7 @@
 SilverStripe Foundation Interchange
 ===================================
 
-Experimental upport for dynamically loading responsive content using `.ss` templates with Foundation's Interchange
+Experimental support for dynamically loading responsive content using `.ss` templates with Foundation's Interchange
 
 Installing
 ===================================
